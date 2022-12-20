@@ -1,14 +1,12 @@
 import logo from '../images/logo.png';
 import home from '../images/home.png';
 import Hamburger from "./Hamburger";
-import { useState } from 'react';
 import Nav from './Hamburger-menu';
 
 
 function Header() {
-   
+    
     return (
-        <>
           <section class="top-nav">
             <header>
           <h1>Take Away<img src={logo} alt="logo" /></h1>
@@ -17,7 +15,6 @@ function Header() {
             
            <Nav/><Hamburger/>
          </section>
-        </>
     );
   }
 

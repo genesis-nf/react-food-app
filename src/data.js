@@ -1,4 +1,4 @@
-const restaurants = [
+const Restaurants = [
   {
     name: "Cordoba Restaurant",
     img:"./images/cordoba.png",
@@ -38,4 +38,4 @@ const restaurants = [
   }
 ];
 
-export default restaurants;
+export default Restaurants;

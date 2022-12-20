@@ -20,9 +20,9 @@ export default function Nav(){
             <li><a href="#settings">Settings</a></li>
             <li><a href="#termsandconditions">Terms and Conditions</a></li>
             </ul>
-                    <div className="hamburger" onClick={toggleHamburger}>
+            <div className="hamburger" onClick={toggleHamburger}>
                         <Hamburger isOpen={hamburgerOpen}/>
-                    </div>
+           </div>
             </div>
 
 

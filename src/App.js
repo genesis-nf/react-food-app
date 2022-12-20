@@ -1,19 +1,17 @@
-//import logo from './logo.svg';
-//import './App.css';
 import './css/main.css';
 import './css/Elementorest.css';
 import './css/Header.css';
 import React from 'react';
-import restaurants from './data.js';
 import Header from './body/Header';
 import Main from './body/Main';
 
+
 function App() {
   return (
-  <React.Fragment>
+    <body>
       <Header/>
       <Main/>
-  </React.Fragment>
+    </body>
   );
 }
 export default App;
