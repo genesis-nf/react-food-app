@@ -1,28 +1,41 @@
 import logo from '../images/logo.png';
+import home from '../images/home.png';
+import Hamburger from "./Hamburger";
+import { useState } from 'react';
+import Nav from './Hamburger-menu';
+
 
 function Header() {
    
     return (
         <>
-        <header>
-            <div className="maintitle">
-            <h1>Take Away <img src={logo} alt="logo"/></h1>
-            </div>
-        </header>
-      
-        <nav className="topnav">
-          <button className="hbutton">home</button>
-          <div id="myLinks">
-          <a href="#account">My Account</a>
-          <a href="#orders">My Orders</a>
-          <a href="#cart">My Cart</a>
-          <a href="#settings">Settings</a>
-          <a href="#termsandconditions">Terms and Conditions</a>
-        </div>
-        </nav>
+          <section class="top-nav">
+            <header>
+          <h1>Take Away<img src={logo} alt="logo" /></h1>
+          <button className="hbutton"><img src={home} alt="home" id="home"/></button>
+            </header>
+            
+           <Nav/><Hamburger/>
+         </section>
         </>
     );
   }
+
   export default Header;
+
+
+
   //<a href="" class="icon" onclick="myFunction()"/>
   //imglinea 8 logo
+
+  // <label className='menu-button-container' for="menu-toggle">
+  //     <div className='menu-button'></div>
+  //      </label>
+  //          <ul className="menu">
+  //            <li> <a href="#account">My Account</a></li>
+  //            <li> <a href="#orders">My Orders</a></li>
+  //            <li> <a href="#cart">My Cart</a></li>
+ //             <li><a href="#settings">Settings</a></li>
+  //            <li><a href="#termsandconditions">Terms and Conditions</a></li>
+  //          </ul>
+  //</>       </section></>
